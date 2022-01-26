@@ -1,0 +1,120 @@
+/* styling on navbar */
+ .nav-item .nav-link span:hover {
+    color: rgb(33, 240, 212);
+    cursor: pointer;
+}
+.navbar .navbar-nav .nav-link.active {
+    color: gray;
+    font-weight: bold;
+    margin-left: 10px;
+}
+/* ------------------------------------- */
+/* styling on slider */
+.slider .carousel-item{
+    background-size: cover;
+    height:47vh;
+}
+ .slider{
+    padding: 0%;
+}
+/* ------------------------------------- */
+/* styling section of flex */
+.flexPart i {
+    color: white;
+    font-size: 50px;
+}
+
+.flexPart #flex1 {
+    background-color: rgb(56, 201, 206);
+    /* margin-right: 10px; */
+
+}
+
+.flexPart #flex2 {
+    background-color: rgb(1, 220, 228)
+        /* margin-right: 10px; */
+
+}
+
+.flexPart #flex3 {
+    background-color: rgb(62, 242, 248);
+    /* margin-right: 10px; */
+
+}
+
+/*---------------------------------------*/
+/* styling on section of plans and pricing  */
+/* #plans-pricing .main-heading{
+    
+} */
+#plans-pricing .main-heading .grayWords , .grayWords {
+    font-size: 50px;
+    color: rgb(91, 93, 94);
+    font-weight:bolder;
+}
+#plans-pricing .main-heading .commanColor , .commanColor {
+    font-weight: bolder;
+    color: rgb(33, 240, 212);
+    font-size: 50px;
+}
+.plans .card-header,
+.plans .card-footer {
+    background-color: rgb(33, 240, 212);
+}
+.plans .card-body .number {
+    font-size: 45px;
+    font-weight:bolder;
+}
+.plans .card-body .subNum {
+    font-size: 40px;
+    font-weight:bolder;
+}
+.plans .card-body{
+    color: rgb(91, 93, 94);
+}
+
+/* --------------------------------------------- */
+/* styling footer section */
+.footer li {
+    font-size: 15px;
+}
+
+.footer {
+    background-color: rgb(91, 93, 94);
+}
+
+.lastSectionInFooter {
+    background-color: rgb(37, 36, 36);
+}
+.lastSectionInFooter .copyright{
+   color: rgb(141, 137, 137);
+}
+
+.lastSectionInFooter ul{
+    margin: 0;
+}
+.lastSectionInFooter ul li{
+    display: inline-block;
+}
+.lastSectionInFooter ul li a {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+.lastSectionInFooter ul li a i{
+    display: inline-block;
+    color:rgb(33, 240, 212); ;
+}
+/* --------------------------------------------- */
+/* style languages section */
+.languages {
+    margin-bottom: 10px;
+}
+.languages .languagesContent .d-flex  div {
+    font-size: 45px;
+    border: 1px solid rgb(180, 177, 177);
+}
+.languages .languagesContent div i {
+    margin-right: 15px;
+}

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap Project</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- css -->
+	<link rel="stylesheet" href="BS.css">
+	<!-- font owesome -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+<!--------------------------------------------------------------------------------------------->
+
+<body>
+	<!-- Start of navbar -->
+	<div class="container pt-1">
+		<div class="row ">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+				<div class="container">
+					<!-- Logo in navbar -->
+					<div class="col-6">
+						<a style="font-size: 30px;" class="navbar-brand " href="#">
+							<i class="fas fa-tree-alt " style="color:rgb(33, 240, 212);"></i> HOSTO </a>
+					</div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+						aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+						<!-- التلات شرط الى فوق بعض اما نصغر الشاشه -->
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- start of navbar -->
+					<div class="collapse navbar-collapse" id="mainNavbar">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"><span>Home</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"> <span>Layouts</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"> <span>Elements</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"><span>Portfolio</span> </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"><span>Blog</span> </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"><span>Contact Us</span> </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- End of navbar -->
+		<!--------------------------------------------------------------------------------------------->
+		<!-- Start of slider section -->
+		<div class="container">
+			<div class="row ">
+				<div class="slider">
+					<!-- change id of main div to "main_slider" -->
+					<div id="main_slider" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#main_slider" data-bs-slide-to="0" class="active"
+								aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#main_slider" data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#main_slider" data-bs-slide-to="2"
+								aria-label="Slide 3"></button>
+						</div>
+						<!-- images in  -->
+						<div class="carousel-inner">
+							<div class="carousel-item carousel-one active">
+								<img src="./images/slider1.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item carousel-two">
+								<img src="./images/slider2.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item carousel-three">
+								<img src="./images/slider3.jpg" class="d-block w-100" alt="...">
+
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#main_slider"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#main_slider"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of slider section-->
+		<!--------------------------------------------------------------------------------------------->
+		<!-- Start of fles section -->
+		<div class="flexPart ">
+			<div class="container  ">
+				<div class="row text-center g-0 m-5">
+					<div id="flex1" class="col-md">
+						<div class="d-flex flex-row bd-highlight mb-3 pt-4">
+							<div>
+								<i class="fas fa-rocket"></i>
+								<p>Mobile</p>
+								<h3 class=" mb-3">Secure & Reliable</h3>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Iure, quas quidem possimus dolorum esse eligendi?</p>
+							</div>
+						</div>
+					</div>
+					<div id="flex2" class="col-md">
+						<div class="d-flex flex-row bd-highlight mb-3 pt-4">
+							<div>
+								<i class="fas fa-rocket"></i>
+								<p>Mobile</p>
+								<h3 class="card-title mb-3">Quick & Super Fast</h3>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Iure, quas quidem possimus dolorum esse eligendi?</p>
+							</div>
+						</div>
+					</div>
+					<div id="flex3" class="col-md">
+						<div class="d-flex flex-row bd-highlight mb-3 pt-4">
+							<div>
+								<i class="far fa-comments"></i>
+								<p>Mobile</p>
+								<h3 class="card-title mb-3">Customer Support</h3>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Iure, quas quidem possimus dolorum esse eligendi?</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of flex section -->
+		<!--------------------------------------------------------------------------------------------->
+		<!-- Start of card section -->
+		<div id="plans-pricing" class="p-5 bg-light">
+			<div class="container">
+				<!-- start of main header of pricing and plans section -->
+				<div class="main-heading">
+					<h1 class="text-center ">
+						<span class="grayWords">HOSTO</span>
+						<span class="commanColor"> Plans</span>
+						<span class="grayWords"> & </span>
+						<span class="commanColor">Pricing</span>
+					</h1>
+					<p class="lead text-center mb-5">
+						<small>Our Hosting plans in detail. Choose the right plan for you!</small>
+					</p>
+				</div>
+				<!-- end of main header of pricing and plans section-->
+				<!--================================================================-->
+				<!-- start of plans part -->
+				<div class="plans">
+					<div class="row g-4">
+						<div class="col-md-6 col-lg-3">
+							<div class="card bg-light">
+								<div class="card-header text-center text-white">
+									<h4>Web Hosting</h4>
+								</div>
+								<div class="card-body ">
+									<h3 class="text-center">$ <span class="number">4</span><sup
+											class="subNum">.45</sup><sub>/month</sub></h3>
+
+									<p class="card-text ">
+										<div><i class="fas fa-check"></i> <strong>10GB</strong> <span>Storage
+												Space</span>
+										</div>
+										<div><i class="fas fa-check"></i> <strong> 15GB</strong> </span>Bandwidth</span>
+										</div>
+										<div><i class="fas fa-check"></i> <strong> Unlimited</strong> <span>FTP &
+												Email</span>
+										</div>
+										<div><i class="fas fa-check"></i><strong> Free</strong> <span> Domain</span>
+										</div>
+									</p>
+								</div>
+								<div class="card-footer text-center text-white">
+									<h5> Sign Up Now</h5>
+								</div>
+							</div>
+						</div>
+						<!--================================================================-->
+						<div class="col-md-6 col-lg-3">
+							<div class="card bg-light">
+								<div class="card-header text-center text-white">
+									<h4>Reseller Hosting</h4>
+								</div>
+								<div class="card-body ">
+									<h3 class="text-center">$ <span class="number">9</span><sup
+											class="subNum">.45</sup><sub>/month</sub></h3>
+
+									<p class="card-text ">
+										<div><i class="fas fa-check"></i> <strong> 10GB</strong> <span>Storage
+												Space</span>
+										</div>
+										<div><i class="fas fa-check"></i> <strong> 15GB</strong> </span>Bandwidth</span>
+										</div>
+										<div><i class="fas fa-check"></i> <strong> Unlimited</strong> <span>FTP &
+												Email</span>
+										</div>
+										<div><i class="fas fa-check"></i><strong> Free</strong> <span> Domain</span>
+										</div>
+									</p>
+								</div>
+								<div class="card-footer text-center text-white">
+									<h5> Sign Up Now</h5>
+								</div>
+							</div>
+						</div>
+						<!--================================================================-->
+						<div class="col-md-6 col-lg-3">
+							<div class="card bg-light">
+								<div class="card-header text-center text-white">
+									<h4>Vps Hosting</h4>
+								</div>
+								<div class="card-body ">
+									<h3 class="text-center">$<span class="number">12</span><sup
+											class="subNum">.45</sup><sub>/month</sub></h3>
+									<p class="card-text ">
+										<div><i class="fas fa-check"></i> <strong> 10GB</strong> <span>Storage
+												Space</span>
+										</div>
+										<div><i class="fas fa-check"></i> <strong> 15GB</strong> </span>Bandwidth</span>
+										</div>
+										<div><i class="fas fa-check"></i> <strong> Unlimited</strong> <span>FTP &
+												Email</span>
+										</div>
+										<div><i class="fas fa-check"></i><strong> Free</strong> <span> Domain</span>
+										</div>
+									</p>
+								</div>
+								<div class="card-footer text-center text-white">
+									<h5> Sign Up Now</h5>
+								</div>
+							</div>
+						</div>
+						<!--================================================================-->
+						<div class="col-md-6 col-lg-3">
+							<div class="card ">
+								<div class="card-header text-center text-white">
+									<h4>Domain Names</h4>
+								</div>
+								<div class="card-body ">
+									<h3 class="text-center">$<span class="number">14</span><sup
+											class="subNum">.45</sup><sub>/month</sub>
+									</h3>
+
+									<p class="card-text ">
+										<div><i class="fas fa-check"></i> <strong> 10GB</strong> <span>Storage
+												Space</span>
+										</div>
+										<div><i class="fas fa-check"></i> <strong> 15GB</strong> </span>Bandwidth</span>
+										</div>
+										<div><i class="fas fa-check"></i> <strong> Unlimited</strong> <span>FTP &
+												Email</span>
+										</div>
+										<div><i class="fas fa-check"></i><strong> Free</strong> <span> Domain</span>
+										</div>
+									</p>
+								</div>
+								<div class="card-footer text-center text-white">
+									<h5> Sign Up Now</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of Card section -->
+		<!--------------------------------------------------------------------------------------------->
+
+		<!--------------------------------------------------------------------------------------------->
+		<!-- Start of Features Of Hosto section -->
+		<div id="FeaturesOfHosto" class="p-5 mt-5 ">
+			<div class="container">
+				<!-- start of main header of pricing and plans section -->
+				<div class="main-heading">
+					<h1 class="text-center ">
+						<span class="grayWords"> Key Features Of</span>
+						<span class="commanColor">Hosto</span>
+					</h1>
+					<p class="lead text-center mb-5">
+						<small>Our Hosting plans in detail. Choose the right plan for you!</small>
+					</p>
+				</div>
+				<!-- end of main header of pricing and plans section-->
+				<div class="features">
+					<div class="row g-4">
+						<div class="col-md-6 col-lg-4">
+							<div class="card">
+								<div class="card-header">
+									<h4>Web Hosting</h4>
+								</div>
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural
+										lead-in to additional content. This card has even longer content than the first
+										to show that equal height action.</p>
+									<a href="#" class="btn btn-light">Read More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="card">
+								<div class="card-header">
+									<h4> E-Commerce</h4>
+								</div>
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural
+										lead-in to additional content. This card has even longer content than the first
+										to show that equal height action.</p>
+									<a href="#" class="btn btn-light">Read More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="card">
+								<div class="card-header">
+									<h4>Domains</h4>
+								</div>
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural
+										lead-in to additional content. This card has even longer content than the first
+										to show that equal height action.</p>
+									<a href="#" class="btn btn-light">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row g-4 mt-3">
+						<div class="col-md-6 col-lg-4">
+							<div class="card">
+								<div class="card-header">
+									<h4>My Website</h4>
+								</div>
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural
+										lead-in to additional content. This card has even longer content than the first
+										to show that equal height action.</p>
+									<a href="#" class="btn btn-light">Read More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="card">
+								<div class="card-header">
+									<h4>Servers</h4>
+								</div>
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural
+										lead-in to additional content. This card has even longer content than the first
+										to show that equal height action.</p>
+									<a href="#" class="btn btn-light">Read More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 ">
+							<div class="card">
+								<div class="card-header">
+									<h4>My Website Personal</h4>
+								</div>
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural
+										lead-in to additional content. This card has even longer content than the first
+										to show that equal height action.</p>
+									<a href="#" class="btn btn-light">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of Features Of Hosto section -->
+		<!--------------------------------------------------------------------------------------------->
+
+		<!-- Start of languages section -->
+		<div id="languagesSections" class="p-5 mt-5 ">
+			<div class="container">
+				<div class="languages">
+					<div class="row g-4 text-muted">
+						<div class="languagesContent">
+							<div class="d-flex flex-row bd-highlight mb-3">
+								<div class="p-2 bd-highlight">JQuery</div>
+								<div class="p-2 bd-highlight"><i class="fab fa-java">Java</i></div>
+								<div class="p-2 bd-highlight"><i class="fab fa-html5">HTML</i></div>
+								<div class="p-2 bd-highlight"><i class="fab fa-chrome">Chrome</i></div>
+								<div class="p-2 bd-highlight"><i class="fab fa-cpanel " style="font-size: 60px;"></i>
+								</div>
+								<div class="p-2 bd-highlight">MYSQL</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End of languages section -->
+				<!--------------------------------------------------------------------------------------------->
+				<!-- start of footer -->
+				<div class="footer ">
+					<div class="container">
+						<div class="row text-white p-4">
+							<div class="col-md-3">
+								<div class="about-us">
+									<div class="mb-4">
+										<h5 class="mb-4">About Us</h5>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus similique
+										provident.
+									</div>
+									<div>
+										<p>
+											<i class="fas fa-home"></i>
+											<span class="m-2">Kafr Sakr-Sharqia</span>
+
+										</p>
+										<p>
+											<i class="fas fa-mobile-alt"></i>
+											<span class="m-2">+201098251399</span>
+										</p>
+										<p>
+											<i class="fas fa-envelope"></i>
+											<span class="m-2"><a
+													href="mailto:monaali980628@gmail.com">info@gmail.com</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="navigation">
+									<h5 class="mb-4">Navigation</h5>
+									<ul>
+										<li>Web Hosting</li>
+										<li>Reseller Hosting</li>
+										<li>Features</li>
+										<li>VPS Hosting</li>
+										<li>Dedicated Servers</li>
+										<li>Domain Registration</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="useful-links">
+									<h5 class="mb-4">Useful Links</h5>
+									<ul>
+										<li>Web Hosting</li>
+										<li>Reseller Hosting</li>
+										<li>Features</li>
+										<li>VPS Hosting</li>
+										<li>Dedicated Servers</li>
+										<li>Domain Registration</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="recent-posts">
+									<h5 class="mb-4">Recent Posts</h5>
+									<ul>
+										<li>Home</li>
+										<li>About</li>
+										<li>Features</li>
+										<li>Blog</li>
+										<li>Works</li>
+										<li>Contacts</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-2 jestifiy-contact">
+								<div class="navigation">
+									<h5 class="mb-4">Tags</h5>
+									<ul style="display: inline-block;">
+										<li>Web Hosting</li>
+										<li>Reseller Hosting</li>
+										<li>Features</li>
+										<li>VPS Hosting</li>
+										<li>Dedicated Servers</li>
+										<li>Domain Registration</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lastSectionInFooter">
+						<div class="container text-white">
+							<div class="row py-2 ">
+								<div class="col-lg-5 col-md-6  text-left">
+									<span class="copyright"> HOSTO &COPY; 2021 Privacy Policy</span>
+								</div>
+								<div class="col text-right">
+									<ul class="list-unstyled" style="display: inline-block;">
+										<li> <a href="#"><i class="fab fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-github"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fas fa-tree"></i></a></li>
+										<li><a href="#"><i class="fas fa-wifi"></i></a></li>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End of footer -->
+
+				<!--------------------------------------------------------------------------------------------->
+
+</body>
+
+</html>
